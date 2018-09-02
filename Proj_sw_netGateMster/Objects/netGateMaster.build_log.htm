@@ -1,0 +1,211 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.18.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Nepenthe N, Nepenthes, LIC=CRMX7-EIXUP-C25L6-DFUKH-73GTI-9IM5I
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.18
+Toolchain Path:  E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.18
+Dialog DLL:      DCM.DLL V1.13.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.8.0
+ 
+<h2>Project:</h2>
+C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\netGateMaster.uvprojx
+Project File Date:  06/11/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\Bin'
+Build target 'Zigbee(cc2530)&WIFI(esp8266)网关主机'
+compiling delay.c...
+compiling UART_dataTransfer.c...
+compiling app_Main.c...
+Usr\app_Main.c(25): warning:  #177-D: variable "touch_State" was declared but never referenced
+  	GUI_PID_STATE touch_State;
+Usr\app_Main.c: 1 warning, 0 errors
+compiling bussiness_userInterface.c...
+compiling ili9341_driver.c...
+compiling LCDTFT_driver.c...
+compiling GUIConf.c...
+compiling LCDConf.c...
+compiling ft6236_driver.c...
+compiling GUI_X_CMSIS_RTOS.c...
+compiling GUIDEMO.c...
+compiling GUIDEMO_AntialiasedText.c...
+compiling GUI_X_Touch_Analog.c...
+compiling GUIDEMO_Automotive.c...
+compiling GUIDEMO_Bitmap.c...
+compiling GUIDEMO_BarGraph.c...
+compiling GUIDEMO_ColorBar.c...
+compiling GUIDEMO_Conf.c...
+compiling GUIDEMO_Cursor.c...
+compiling GUIDEMO_Fading.c...
+compiling GUIDEMO_Graph.c...
+compiling GUIDEMO_IconView.c...
+compiling GUIDEMO_ImageFlow.c...
+compiling GUIDEMO_Intro.c...
+compiling GUIDEMO_Listview.c...
+compiling GUIDEMO_RadialMenu.c...
+compiling GUIDEMO_Skinning.c...
+compiling GUIDEMO_Resource.c...
+compiling GUIDEMO_Speed.c...
+compiling GUIDEMO_Speedometer.c...
+compiling GUIDEMO_Start.c...
+compiling GUIDEMO_Touch.c...
+compiling GUIDEMO_TransparentDialog.c...
+compiling GUIDEMO_Treeview.c...
+compiling GUIDEMO_VScreen.c...
+compiling GUIDEMO_WashingMachine.c...
+compiling GUIDEMO_ZoomAndRotate.c...
+compiling RTX_Conf_CM.c...
+compiling USART_STM32F10x.c...
+compiling misc.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling DMA_STM32F10x.c...
+compiling stm32f10x_tim.c...
+assembling startup_stm32f10x_hd.s...
+compiling GPIO_STM32F10x.c...
+compiling system_stm32f10x.c...
+linking...
+Program Size: Code=61288 RO-data=14100 RW-data=724 ZI-data=50924  
+FromELF: creating hex file...
+".\Objects\netGateMaster.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.2.0.pack
+                ::CMSIS:RTOS:1.0.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0.0
+   * Component: USART Version: 2.3.0
+   * Component: Keil RTX Version: 4.81.1
+   * Component: CORE Version: 5.0.2
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil::Device:Startup:1.0.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+   * Component: Framework Version: 3.5.1
+   * Component: GPIO Version: 3.5.0
+   * Component: CRC Version: 3.5.0
+   * Component: Flash Version: 3.5.0
+   * Component: EXTI Version: 3.5.0
+   * Component: TIM Version: 3.5.0
+   * Component: RCC Version: 3.5.0
+   * Component: SPI Version: 3.5.0
+   * Component: USART Version: 3.5.0
+   * Component: GPIO Version: 1.3
+   * Component: DMA Version: 1.2
+   * Component: USART Version: 2.2
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE
+  C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE
+  E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include
+  E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include
+  E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC
+  E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+  E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc
+  E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ::CMSIS Driver:USART:2.3.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USART.h
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.81.1
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+
+   * Component: ARM::CMSIS:CORE:5.0.2
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+      Source file:   Device\Source\ARM\startup_stm32f10x_hd.s
+
+   * Component: Keil::Device:StdPeriph Drivers:Framework:3.5.1
+      Include file:  Device\StdPeriph_Driver\inc\misc.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_conf.h
+      Include file:  Device\StdPeriph_Driver\templates\stm32f10x_it.h
+      Source file:   Device\StdPeriph_Driver\templates\stm32f10x_it.c
+      Source file:   Device\StdPeriph_Driver\src\misc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:GPIO:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_gpio.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_gpio.c
+
+   * Component: Keil::Device:StdPeriph Drivers:CRC:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_crc.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_crc.c
+
+   * Component: Keil::Device:StdPeriph Drivers:Flash:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_flash.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_flash.c
+
+   * Component: Keil::Device:StdPeriph Drivers:EXTI:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_exti.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_exti.c
+
+   * Component: Keil::Device:StdPeriph Drivers:TIM:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_tim.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_tim.c
+
+   * Component: Keil::Device:StdPeriph Drivers:RCC:3.5.0
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_rcc.c
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_rcc.h
+
+   * Component: Keil::Device:StdPeriph Drivers:SPI:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_spi.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_spi.c
+
+   * Component: Keil::Device:StdPeriph Drivers:USART:3.5.0
+      Include file:  Device\StdPeriph_Driver\inc\stm32f10x_usart.h
+      Source file:   Device\StdPeriph_Driver\src\stm32f10x_usart.c
+
+   * Component: Keil::Device:GPIO:1.3
+      Source file:   RTE_Driver\GPIO_STM32F10x.c
+      Include file:  RTE_Driver\GPIO_STM32F10x.h
+
+   * Component: Keil::Device:DMA:1.2
+      Include file:  RTE_Driver\DMA_STM32F10x.h
+      Source file:   RTE_Driver\DMA_STM32F10x.c
+
+   * Component: Keil::CMSIS Driver:USART:2.2
+      Source file:   RTE_Driver\USART_STM32F10x.c
+Build Time Elapsed:  00:00:26
+</pre>
+</body>
+</html>

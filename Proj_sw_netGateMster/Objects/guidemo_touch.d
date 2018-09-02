@@ -1,0 +1,9 @@
+.\objects\guidemo_touch.o: member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Touch.c
+.\objects\guidemo_touch.o: .\member_GUI\emwin_Include\inc_version5.42\GUI.h
+.\objects\guidemo_touch.o: E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guidemo_touch.o: .\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h
+.\objects\guidemo_touch.o: .\member_GUI\emwin_Include\inc_version5.42\GUIConf.h
+.\objects\guidemo_touch.o: .\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h
+.\objects\guidemo_touch.o: .\member_GUI\emwin_Include\inc_version5.42\LCD.h
+.\objects\guidemo_touch.o: .\member_GUI\emwin_Include\inc_version5.42\Global.h
+.\objects\guidemo_touch.o: .\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h

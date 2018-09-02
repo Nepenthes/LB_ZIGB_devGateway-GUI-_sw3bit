@@ -1,0 +1,1359 @@
+Dependencies for Project 'netGateMaster', Target 'Zigbee(cc2530)&WIFI(esp8266)网关主机': (DO NOT MODIFY !)
+F (.\Usr\app_Main.c)(0x5B1E36DC)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\app_main.o --omf_browse .\objects\app_main.crf --depend .\objects\app_main.d)
+I (Usr\osObjects.h)(0x5A797A45)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5983FFB6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_dataTrans\UART_dataTransfer.h)(0x5B1F1EEA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include\Driver_USART.h)(0x58AA8AF6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include\Driver_Common.h)(0x58AA8AF4)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (.\Usr\IO_Map.h)(0x5A1DA488)
+I (.\Usr\delay.h)(0x5A2B892E)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
+I (.\member_GUI\hardware_Driver\lcd_ili9341_driver\ili9341_driver.h)(0x5B1A33BB)
+I (.\member_GUI\hardware_Driver\touch_ft6236_driver\ft6236_driver.h)(0x5B1CD758)
+I (.\member_GUI\gui_usrCustom\bussiness_userInterface.h)(0x5B1E4228)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_DEMO\demo_version5.20\GUIDEMO.h)(0x51225144)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\Usr\delay.c)(0x5B19D6C0)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\delay.o --omf_browse .\objects\delay.crf --depend .\objects\delay.d)
+I (Usr\delay.h)(0x5A2B892E)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (Usr\osObjects.h)(0x5A797A45)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5983FFB6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+F (.\member_dataTrans\UART_dataTransfer.c)(0x5B20A18E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\uart_datatransfer.o --omf_browse .\objects\uart_datatransfer.crf --depend .\objects\uart_datatransfer.d)
+I (member_dataTrans\UART_dataTransfer.h)(0x5B1F1EEA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include\Driver_USART.h)(0x58AA8AF6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include\Driver_Common.h)(0x58AA8AF4)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (.\Usr\IO_Map.h)(0x5A1DA488)
+I (.\Usr\delay.h)(0x5A2B892E)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\Usr\osObjects.h)(0x5A797A45)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5983FFB6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
+F (.\member_GUI\gui_usrCustom\bussiness_userInterface.c)(0x5B1F2FF8)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\bussiness_userinterface.o --omf_browse .\objects\bussiness_userinterface.crf --depend .\objects\bussiness_userinterface.d)
+I (member_GUI\gui_usrCustom\bussiness_userInterface.h)(0x5B1E4228)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5983FFB6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+F (.\member_GUI\hardware_Driver\lcd_ili9341_driver\ili9341_driver.c)(0x5B1E2DC6)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\ili9341_driver.o --omf_browse .\objects\ili9341_driver.crf --depend .\objects\ili9341_driver.d)
+I (member_GUI\hardware_Driver\lcd_ili9341_driver\ili9341_driver.h)(0x5B1A33BB)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (member_GUI\hardware_Driver\lcd_ili9341_driver\LCDTFT_driver.h)(0x5B1E1E58)
+I (.\Usr\IO_Map.h)(0x5A1DA488)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include\Driver_USART.h)(0x58AA8AF6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include\Driver_Common.h)(0x58AA8AF4)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (.\Usr\delay.h)(0x5A2B892E)
+I (.\Usr\osObjects.h)(0x5A797A45)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5983FFB6)
+I (member_GUI\hardware_Driver\lcd_ili9341_driver\fonts.h)(0x531C2A40)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\string.h)(0x569DEA3A)
+F (.\member_GUI\hardware_Driver\lcd_ili9341_driver\LCDTFT_driver.c)(0x5B1E1DA1)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\lcdtft_driver.o --omf_browse .\objects\lcdtft_driver.crf --depend .\objects\lcdtft_driver.d)
+I (member_GUI\hardware_Driver\lcd_ili9341_driver\LCDTFT_driver.h)(0x5B1E1E58)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\Usr\IO_Map.h)(0x5A1DA488)
+I (.\Usr\delay.h)(0x5A2B892E)
+I (.\Usr\osObjects.h)(0x5A797A45)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5983FFB6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+F (.\member_GUI\hardware_Driver\touch_ft6236_driver\ft6236_driver.c)(0x5B1E3210)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\ft6236_driver.o --omf_browse .\objects\ft6236_driver.crf --depend .\objects\ft6236_driver.d)
+I (.\Usr\delay.h)(0x5A2B892E)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\Usr\osObjects.h)(0x5A797A45)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5983FFB6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (member_GUI\hardware_Driver\touch_ft6236_driver\ft6236_driver.h)(0x5B1CD758)
+I (.\Usr\IO_Map.h)(0x5A1DA488)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include\Driver_USART.h)(0x58AA8AF6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include\Driver_Common.h)(0x58AA8AF4)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\string.h)(0x569DEA3A)
+F (.\member_GUI\emwin_config\LCDConf.c)(0x5B1D2197)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\lcdconf.o --omf_browse .\objects\lcdconf.crf --depend .\objects\lcdconf.d)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIDRV_FlexColor.h)(0x59ED6214)
+I (.\member_GUI\hardware_Driver\lcd_ili9341_driver\LCDTFT_driver.h)(0x5B1E1E58)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (.\Usr\IO_Map.h)(0x5A1DA488)
+I (.\member_GUI\hardware_Driver\lcd_ili9341_driver\ili9341_driver.h)(0x5B1A33BB)
+I (.\member_GUI\hardware_Driver\touch_ft6236_driver\ft6236_driver.h)(0x5B1CD758)
+F (.\member_GUI\emwin_config\GUIConf.c)(0x5B18CBBF)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guiconf.o --omf_browse .\objects\guiconf.crf --depend .\objects\guiconf.d)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+F (.\member_GUI\emwin_config\GUI_X_Touch_Analog.c)(0x5B1A2FBB)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\gui_x_touch_analog.o --omf_browse .\objects\gui_x_touch_analog.crf --depend .\objects\gui_x_touch_analog.d)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\hardware_Driver\touch_ft6236_driver\ft6236_driver.h)(0x5B1CD758)
+I (.\Usr\IO_Map.h)(0x5A1DA488)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (.\member_GUI\emwin_config\GUI_X_CMSIS_RTOS.c)(0x5B1CDA92)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\gui_x_cmsis_rtos.o --omf_browse .\objects\gui_x_cmsis_rtos.crf --depend .\objects\gui_x_cmsis_rtos.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5983FFB6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+F (.\member_GUI\emwin_lib\GUI_CM3_L_version5.42.lib)(0x59ED6214)()
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo.o --omf_browse .\objects\guidemo.crf --depend .\objects\guidemo.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_AntialiasedText.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_antialiasedtext.o --omf_browse .\objects\guidemo_antialiasedtext.crf --depend .\objects\guidemo_antialiasedtext.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Automotive.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_automotive.o --omf_browse .\objects\guidemo_automotive.crf --depend .\objects\guidemo_automotive.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_BarGraph.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_bargraph.o --omf_browse .\objects\guidemo_bargraph.crf --depend .\objects\guidemo_bargraph.d)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Bitmap.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_bitmap.o --omf_browse .\objects\guidemo_bitmap.crf --depend .\objects\guidemo_bitmap.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\math.h)(0x569DEA3A)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_ColorBar.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_colorbar.o --omf_browse .\objects\guidemo_colorbar.crf --depend .\objects\guidemo_colorbar.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Conf.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_conf.o --omf_browse .\objects\guidemo_conf.crf --depend .\objects\guidemo_conf.d)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Cursor.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_cursor.o --omf_browse .\objects\guidemo_cursor.crf --depend .\objects\guidemo_cursor.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Fading.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_fading.o --omf_browse .\objects\guidemo_fading.crf --depend .\objects\guidemo_fading.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Graph.c)(0x53C14AFE)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_graph.o --omf_browse .\objects\guidemo_graph.crf --depend .\objects\guidemo_graph.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_IconView.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_iconview.o --omf_browse .\objects\guidemo_iconview.crf --depend .\objects\guidemo_iconview.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDemo.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_ImageFlow.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_imageflow.o --omf_browse .\objects\guidemo_imageflow.crf --depend .\objects\guidemo_imageflow.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Intro.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_intro.o --omf_browse .\objects\guidemo_intro.crf --depend .\objects\guidemo_intro.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Listview.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_listview.o --omf_browse .\objects\guidemo_listview.crf --depend .\objects\guidemo_listview.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_RadialMenu.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_radialmenu.o --omf_browse .\objects\guidemo_radialmenu.crf --depend .\objects\guidemo_radialmenu.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Resource.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_resource.o --omf_browse .\objects\guidemo_resource.crf --depend .\objects\guidemo_resource.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Skinning.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_skinning.o --omf_browse .\objects\guidemo_skinning.crf --depend .\objects\guidemo_skinning.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Speed.c)(0x53C3C9DD)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_speed.o --omf_browse .\objects\guidemo_speed.crf --depend .\objects\guidemo_speed.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Speedometer.c)(0x54BA07BE)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_speedometer.o --omf_browse .\objects\guidemo_speedometer.crf --depend .\objects\guidemo_speedometer.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Start.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_start.o --omf_browse .\objects\guidemo_start.crf --depend .\objects\guidemo_start.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Touch.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_touch.o --omf_browse .\objects\guidemo_touch.crf --depend .\objects\guidemo_touch.d)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_TransparentDialog.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_transparentdialog.o --omf_browse .\objects\guidemo_transparentdialog.crf --depend .\objects\guidemo_transparentdialog.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_Treeview.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_treeview.o --omf_browse .\objects\guidemo_treeview.crf --depend .\objects\guidemo_treeview.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_VScreen.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_vscreen.o --omf_browse .\objects\guidemo_vscreen.crf --depend .\objects\guidemo_vscreen.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_WashingMachine.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_washingmachine.o --omf_browse .\objects\guidemo_washingmachine.crf --depend .\objects\guidemo_washingmachine.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (.\member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO_ZoomAndRotate.c)(0x53B65D8E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\guidemo_zoomandrotate.o --omf_browse .\objects\guidemo_zoomandrotate.crf --depend .\objects\guidemo_zoomandrotate.d)
+I (member_GUI\emwin_DEMO\demo_version5.30\GUIDEMO.h)(0x53C4ADB0)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI.h)(0x59ED6214)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_ConfDefaults.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUIConf.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Type.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\Global.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Version.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_GUI.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\CHECKBOX.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\DIALOG_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WIDGET.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\WM_Intern.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Private.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LCD_Protected.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GUI_Debug.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SCROLLBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\FRAMEWIN.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\PROGBAR.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TEXT.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\BUTTON.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\SLIDER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\HEADER.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\GRAPH.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\ICONVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\LISTVIEW.h)(0x59ED6214)
+I (.\member_GUI\emwin_Include\inc_version5.42\TREEVIEW.h)(0x59ED6214)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM3.lib)(0x58AA8AF8)()
+F (RTE\CMSIS\RTX_Conf_CM.c)(0x5B28C9F2)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\rtx_conf_cm.o --omf_browse .\objects\rtx_conf_cm.crf --depend .\objects\rtx_conf_cm.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\cmsis_os.h)(0x5983FFB6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC\RTX_CM_lib.h)(0x5983FFB6)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\USART_STM32F10x.c)(0x56F9DE5C)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\usart_stm32f10x.o --omf_browse .\objects\usart_stm32f10x.crf --depend .\objects\usart_stm32f10x.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\USART_STM32F10x.h)(0x56F9DE5C)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\GPIO_STM32F10x.h)(0x5617291E)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\DMA_STM32F10x.h)(0x52B2710E)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include\Driver_USART.h)(0x58AA8AF6)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include\Driver_Common.h)(0x58AA8AF4)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stddef.h)(0x569DEA3A)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\RTE_Device.h)(0x00000000)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\misc.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_crc.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_exti.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_flash.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_spi.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_tim.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\src\stm32f10x_usart.c)(0x52F9EB20)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\DMA_STM32F10x.c)(0x5617291E)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\dma_stm32f10x.o --omf_browse .\objects\dma_stm32f10x.crf --depend .\objects\dma_stm32f10x.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\DMA_STM32F10x.h)(0x52B2710E)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\STM32F10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\GPIO_STM32F10x.c)(0x571EF70A)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\gpio_stm32f10x.o --omf_browse .\objects\gpio_stm32f10x.crf --depend .\objects\gpio_stm32f10x.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver\GPIO_STM32F10x.h)(0x5617291E)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)
+F (RTE\Device\STM32F103RE\RTE_Device.h)(0x5B1DCA7D)()
+F (RTE\Device\STM32F103RE\startup_stm32f10x_hd.s)(0x5825386C)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork -I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver--pd "__UVISION_VERSION SETA 518" --pd "_RTE_ SETA 1" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x52F9EDD0)()
+F (RTE\Device\STM32F103RE\system_stm32f10x.c)(0x5825386C)(-c --cpu Cortex-M3 -D__RTX -g -O0 --apcs=interwork --split_sections -I .\Usr -I .\member_dataTrans -I .\usr_Method -I .\member_GUI -I .\member_GUI\hardware_Driver\lcd_ili9341_driver -I .\member_GUI\hardware_Driver\touch_ft6236_driver -I .\member_GUI\emwin_config -I .\member_GUI\emwin_lib -I .\member_GUI\gui_usrCustom -I .\member_GUI\emwin_Include\inc_version5.42 -I .\member_GUI\emwin_DEMO\demo_version5.20 -I .\member_GUI\emwin_DEMO\demo_version5.30-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE-I C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee网关主机(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Driver\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\RTOS\RTX\INC-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc-I E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\RTE_Driver-D__UVISION_VERSION="518" -D_RTE_ -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\RTE_Components.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\core_cm3.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_version.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_compiler.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\ARM\CMSIS\5.2.0\CMSIS\Include\cmsis_armcc.h)(0x5A0D5BFA)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+I (C:\Users\Administrator\Desktop\Version_control_20180824\Version_control_20180824\Zigbee缃戝叧涓绘満(stm32_GUI)\Proj_sw_netGateMster_20180619\Proj_sw_netGateMster\RTE\Device\STM32F103RE\stm32f10x_conf.h)(0x00000000)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_crc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_exti.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_flash.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_spi.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\stm32f10x_usart.h)(0x52F9EB20)
+I (E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\StdPeriph_Driver\inc\misc.h)(0x52F9EB20)

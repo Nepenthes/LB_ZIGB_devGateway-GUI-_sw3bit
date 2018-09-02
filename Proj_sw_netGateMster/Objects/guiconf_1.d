@@ -1,0 +1,9 @@
+.\objects\guiconf_1.o: member_GUI\emwin_DEMO\GUIConf.c
+.\objects\guiconf_1.o: .\member_GUI\emwin_Include\GUI.h
+.\objects\guiconf_1.o: E:\KEIL\MDK_5.18&C51_v9.54a\Software\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\guiconf_1.o: .\member_GUI\emwin_Include\GUI_ConfDefaults.h
+.\objects\guiconf_1.o: .\member_GUI\emwin_Include\GUIConf.h
+.\objects\guiconf_1.o: .\member_GUI\emwin_Include\GUI_Type.h
+.\objects\guiconf_1.o: .\member_GUI\emwin_Include\LCD.h
+.\objects\guiconf_1.o: .\member_GUI\emwin_Include\Global.h
+.\objects\guiconf_1.o: .\member_GUI\emwin_Include\GUI_Version.h
